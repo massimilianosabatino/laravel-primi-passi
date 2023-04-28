@@ -11,6 +11,7 @@
         <h1>Laravel primi passi</h1>
     </header>
     <main>
+        {{$title}}
     </main>
 </body>
 </html>

@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    echo "hello world";
-    return view('home');
+    $data = [
+        'title' => 'Laravel route'
+    ];
+    return view('home', $data);
 });
